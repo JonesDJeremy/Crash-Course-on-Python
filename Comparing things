@@ -1,0 +1,27 @@
+print(10>1)
+#True
+
+print("cat" == "dog")
+#False
+
+print (1 != 2)
+#true
+
+print(1 < "1")
+#this will print a type error becuase python doesn't know how to check if a number is smaller than a "string"
+
+print(1 == "1")
+#False - python has no problem telling us the integer 1 and the string 1 are completely different
+
+print("Yellow" > "Cyan" and "Brown" > "Magenta")
+#False - logical operators "and" "or" "not" - In this case phyton used alphabetical order. Yellow comes after Cyan
+# but brown does not come after magenta. If we use the or operator, instead, the expression will be true if either
+#of the expressions are true, and false only when both expressions are false.
+
+print(25 > 50 or 1 != 2)
+#True - 25 is less than 50 and 1 is not equal to 2
+
+print(not 42 == "Answer")
+#True
+
+print("blue" == "Blue")

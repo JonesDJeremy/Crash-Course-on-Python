@@ -1,0 +1,15 @@
+test_num = 12
+if test_num > 15:
+    print(test_num / 4)
+else:
+    print (test_num + 3)
+
+def difference(x, y):
+    z = x - y
+    return z
+
+print(difference(5, 3))
+
+x = 5*2
+
+((10 != x) or (10 > x))

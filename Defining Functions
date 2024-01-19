@@ -1,0 +1,22 @@
+def gretting(name):
+        print("Welcome, " +name)
+
+gretting("Kay")
+gretting("Cameron")
+
+#This will print:
+#Welcome, Kay
+#Welcome, Cameron
+
+def gretting(name, department):
+    print("Welcome, " + name)
+    print("You are a part of the " + department)
+
+gretting("Blake", "software engineering team")
+gretting("Ellis", "software engineering team")
+
+#This will print:
+#Welcome, Blake
+#You are part of Software engineering
+#Welcome, Ellis
+#You are part of Software engineering

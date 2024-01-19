@@ -1,0 +1,7 @@
+name = "Brook and Alex"
+print("Hello " + name)
+#Hello Brook and Alex
+
+name = "Alex"
+print("Hello " + name)
+#Hello Alex

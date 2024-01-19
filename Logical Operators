@@ -1,0 +1,53 @@
+print((6*3 >= 18) and (9+9 <= 36/2))
+#True 
+#6 x 3 = 18 which is greater than or equal to 18 and 9 + 9 = 18 which is less than or equal to 36 / 2 which is 18
+
+print("Nairobi" < "Milan" and "Nairobi" > "Hanoi")
+#False
+#This is using unicode. This comparison returns a False result because both sides of the logical operator
+#are not True. A comparison statement like this might be used to iterate through a list of names to check
+#if they are alphabetized in the correct order.
+
+# True or True returns True
+print((15/3 < 2+4) or (0 >= 6-7))
+#True
+
+# False or True returns True
+country = "New York City"
+city = "New York City"
+print(country == "New York City" or city == "New York City")
+#True
+
+# True or False returns True
+print(16 <= 4**2 or 9**(0.5) != 3)
+#True
+
+# False or False returns False
+print("B_name" > "C_name" or "B_name" > "A_name")
+#False
+
+x = 2*3 > 6
+print("The value of x is:")
+print(x)
+
+print("")  # Prints a blank line
+
+print("The inverse value of x is:")
+print(not x)
+#If the conditional  expression is True, the not logical
+#operator can be added to make the expression not True (False). 
+
+#If the conditional  expression is False, the not logical
+#operator can be added to make the expression not False (True).
+
+# What happens when you negate a False statement? 
+# Click Run when you are ready to check your answer.
+
+today = "Monday"
+print(not today == "Tuesday") 
+
+# The "today" variable states today is Monday. This makes the comparison
+# "today == Tuesday" False. The logical operator "not" inverts the False
+# result to become True. In other words, this expression asks if it is
+# false that today is not Tuesday. More succinctly, "not False" means 
+# True."

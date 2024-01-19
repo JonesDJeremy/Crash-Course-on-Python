@@ -1,0 +1,30 @@
+month = "September"
+print("Investigate failed login attempts during", month, "if more then", 100)
+
+#Investigate failed login attempts durning September if more then 100
+
+print(type("This is a string"))
+
+#This is print the <class 'str'>
+
+number = 12
+string_representation = str
+print (string_representation)
+
+time_list = [12, 2, 32, 19, 57, 22, 14]
+print(sorted(time_list))
+
+#This will print [2, 12, 14, 19, 22, 32, 57]
+
+time_list = [12, 2, 32, 19,57, 22, 14]
+print(sorted(time_list))
+print(time_list)
+
+#This will print
+#[2, 12, 14, 19, 22, 32, 57]
+#[12, 2, 32, 19, 57, 22, 14]
+
+time_list = [12, 2, 32, 19,57, 22, 14]
+print(min(time_list))
+print(max(time_list))
+

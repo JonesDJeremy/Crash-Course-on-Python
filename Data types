@@ -1,0 +1,16 @@
+print(7+8)
+#15
+
+print("Hello"+"World")
+#Hello World
+
+print(7+"8")
+#This will throw an error
+
+print(type("a"))
+print(type(2))
+print(type(2.5))
+#This would print out the below and tell us what class this data types belong to.
+#<class 'str'>
+#<class 'int'>
+#<class 'float'>
